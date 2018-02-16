@@ -1,0 +1,158 @@
+body{
+	background-image: url("../images/porto_background.jpg");
+	height:600px;
+	background-attachment:fixed;
+	background-size:cover;
+	background-position:center;
+	max-width: 1250px;
+	min-width: 900px;
+	position: relative;
+	
+	padding-bottom: 6rem;
+	min-height: 100%;
+	font-family: 'Calibri';
+	
+	margin-top: 30px;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+a{
+	text-decoration: none; 
+	color: inherit;
+}
+
+h2 {
+	font-family: Calibri;
+	font-size: 50px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	line-height: 50px;
+	text-align: center;
+}
+
+#Logo_Loja{
+	position: absolute;
+}
+
+#Logo_Loja img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+} 
+
+p{
+	font-family: Calibri;
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 24px;
+	text-align: center;
+}
+
+#Menu_Inicial {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	white-space: nowrap;
+	font-family: Calibri;
+	font-size: 30px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	line-height: 30px;
+	text-align: center;
+	text-align: center;
+	width: 70%;
+}
+
+.Login_Section{
+	vertical-align: center;	
+}
+
+form {
+	margin: auto;
+	position: relative;
+	min-width: 550px;
+	width: 50%;
+	min-height: 300px;
+	font-family: Calibri;
+	font-size: 30px;
+	font-style: normal;
+	line-height: 24px;
+	font-weight: bold;
+	color: #000;
+	text-decoration: none;
+	border-radius: 10px;
+	padding: 10px;
+	border: 1px solid #999;
+	border: inset 1px solid #333;
+	-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+	background: rgba(255,255,255,0.5);
+
+}
+
+input {
+	width: 300px;
+	display: block;
+	border: 1px solid #999;
+	height: 20px;
+	-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+	text-align: center;
+	margin: auto;
+
+}
+
+input[type="submit"]{
+	width: 30%;
+	height: 30px;
+	
+}
+
+.error {
+  background-color: #FFAAAA;
+  padding: 10px;
+  color: #333;
+  font-weight: bold;
+  width: 50%;
+}
+.success {
+  background-color: #AAFFAA;
+  padding: 10px;
+  color: #333;
+  font-weight: bold;
+}
+.close {
+  float: right;
+  text-decoration: none;
+  color: #666;
+}
+
+
+.loading_img {
+	width:  20px; 
+	height: 20px;
+	visibility: visible;
+
+}
+
+.accepted_username{
+	color: green;
+	font-size: 20px;
+}
+.denied_username{
+	color:red;
+	font-size: 20px;
+}
+.erro_username{
+	color:orange;
+	font-size: 20px;
+}
+
+
+
+

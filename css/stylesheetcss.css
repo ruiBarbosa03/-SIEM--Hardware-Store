@@ -1,0 +1,806 @@
+html {
+  height: auto;
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: 1250px;
+  float: none;
+  margin-top: 30px;
+  background-image: url("../images/porto_background.jpg");
+  background-attachment:fixed;
+  background-size:cover;
+  background-position:center;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+}
+
+body {
+  max-width: 1250px;
+  min-width: 900px;
+  position: relative;
+  margin: 0 auto;
+  padding-bottom: 6rem;
+  min-height: 100%;
+  font-family: 'Calibri';
+  float:none;
+  margin-top: 30px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+
+.header{
+	width: 100%;
+	height:140px;
+}
+.logo_loja{
+	height: 120px;
+	width: 300px;
+	float: left;
+}
+
+.login_zone{
+	height: 120px;
+	width: 297px;
+	float: right;
+	text-align:right;
+}
+
+.login_zone p{
+	
+	font-family: Calibri;
+	font-size: 108%;
+	
+}
+.login_zone #p_nome{
+	margin-top:9%;
+	margin-bottom: 2%;
+}
+
+.menu_navbar{
+	width:100%;
+	min-width: 500px;
+	overflow: hidden;
+}
+
+
+.navbar{
+	float: right;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: rgba(255,255,255,0.4);
+	
+}
+
+.navbar li {
+    float: left;
+	width:180px;
+}
+ 
+ .navbar li a {
+    display: block;
+    color: black;
+	font-family: 'Calibri';
+	font-size: 110%;
+    text-align: center;
+	padding: 14px 16px;
+    text-decoration: none;
+	border: 1px solid white;
+}
+
+/* Change the link color to #111 (black) on hover */
+.navbar li a:hover {
+    background: rgba(255,255,255,0.5);
+}
+
+.content_box {
+  margin: 0 auto;
+  margin-top: 30px;
+  max-width: 1250px;
+  width: 100%;
+  display: inline-block;
+  height: auto;
+}
+.text_box{
+	width:60%;
+	height:475px;
+	float: left;
+	background: rgba(255,255,255,0.5);
+}
+.text_box p{
+	font-size: 165%;
+	font-family:'Calibri';
+	margin: 3%;
+	text-align: justify;
+	padding-left:2%;
+	padding-right:2%;
+}
+
+.text_box h1{
+	font-size: 250%;
+	font-family:'Calibri';
+	margin: 3%;
+	text-align: center;
+	padding-left:2%;
+	padding-right:2%;
+}
+
+.text_box h2{
+	font-size: 200%;
+	font-family:'Calibri';
+	margin: 3%;
+	text-align: center;
+	padding-left:2%;
+	padding-right:2%;
+}
+
+
+
+.img_box{
+	width:40%;
+	height:460px;
+	float:right;
+}
+.img_box_sobre_nos{
+	width:40%;
+	height:475px;
+	float:right;
+}
+.section_display{
+	background: rgba(255,255,255,0.5);
+	height: 25px;
+}
+
+.left_arrow{
+	display: inline-block;
+}
+
+.right_arrow{
+	display: inline-block;
+	float:right;
+}
+
+.contactos_box, .infoProdutobox, .novaEncomendabox, .clienteBox{
+	min-height: 460px;
+	background: rgba(255,255,255,0.5);
+	
+}
+.clienteBox{
+	width: 100%;
+}
+
+.contactos_box h1{
+	padding-top: 4%;
+	margin-left: 6%;
+	margin-bottom: 2%;
+	font-size: 300%;
+}
+.contactos_box td{
+	font-size: 150%;
+	
+	
+}
+.contactos_box table{
+	margin-top: 30px;
+	margin-left: 12%;
+	border-collapse: separate;
+	border-spacing: 30px 17px;
+	
+}
+
+
+.pesquisa_box{
+	background: rgba(255,255,255,0.5);
+	width: 20%;
+	float:left;
+}
+.pesquisa_box h2{
+	margin:5px;
+}
+.pesquisa_box input, select {
+	width: 80%;
+	clear: both;
+	margin: 10px;
+}
+
+.pesquisa_box button{
+	margin: 10px;
+	width: 80%;
+}
+.pesquisa_box p{
+	font-family: 'Calibri';
+	font-size: 16px;
+	font-weight: bold;
+	margin: 10px 10px 0px 10px;
+	
+}
+
+.mostrar_produtos{
+	background: rgba(255,255,255,0.5);
+	width: 77%;
+	float:right;
+	min-height: 460px;
+}
+
+#descricao{
+	font-size: 25px;
+	font-weight: bold;
+	color: #2a2a2a;
+}
+
+#marca{
+	font-size: 20px;
+	font-weight: bold;
+	color: #545454;
+}
+
+#tipo{
+	font-size: 20px;
+	color: #545454;
+}
+#preco,#indisponivel{
+	font-size: 25px;
+	font-weight: bold;
+	color: red;
+	
+} 
+#preco_rasurado{
+	font-size: 18px;
+	font-weight: bold;
+	color: red;
+	text-decoration: line-through;
+}
+
+.mostrar_produtos table{
+	border-collapse: collapse;
+	width: 98%;
+	margin-top: 1%;
+	margin-left: 1%;
+	font-size: 14px;
+	line-height: 24px;
+	text-align: center;
+	margin-bottom: 1%;
+	
+}
+.mostrar_produtos table,.mostrar_produtos th, .mostrar_produtos td{
+	border: 2px solid white;
+}	
+.mostrar_produtos tr:hover {
+	background-color: rgba(255,255,255,0.7)
+}	
+.mostrar_produtos th {
+    background-color: #5B9BD5;
+    color: white;
+}
+
+.mostrar_produtos article{
+	width: 100%;
+	border-bottom: 1px solid white;
+}
+.mostrar_produtos article:first-child{
+	border-top: 1px solid white;
+}
+.produto_img{
+	margin: 30px 20px 20px 70px;
+	width: 200px;
+	display: inline-block;
+}
+.produto_img img {
+	width:100%;
+}
+.produto_descricao{
+	margin-top: 20px;
+	margin-bottom: 30px;
+	width:30%;
+	display: inline-block;
+	vertical-align: top;
+}
+.produto_descricao p{
+	margin-top: 5%;
+	margin-left: 10%;
+	font-Size: 15px;
+}
+.produto_descricao p:first-child{
+	margin-top: 8%;
+	font-Size: 24px;
+	font-weight: bold;
+}
+.produto_descricao a{
+	text-decoration: none;
+	color: inherit;
+}
+.produto_descricao a:hover{
+	text-decoration: underline;
+}
+
+.produto_descricao input[type="submit"]{
+	width: 100px;
+}
+
+.produto_promo{
+	display: inline-block;
+	width:20%;
+	
+	
+}
+.produto_promo img{
+	width:100%;
+	margin-bottom: 100px;
+	margin-left: 50px;
+	
+}
+
+#AltEl{
+	display: inline-block;
+	
+}
+
+.Alterar_botao{
+	margin-left:5%;
+}
+
+.infoProdutobox h1, .infoClientebox h1{
+	padding-top: 2%;
+	margin-left: 2%;
+	margin-bottom: 3%;
+	font-size: 250%;
+}
+.infoProdutobox p, .infoClientebox p{
+	margin-top: 1%;
+	margin-left: 6%;
+	font-size: 150%;
+}
+
+.infoProdutobox img, .infoClientebox img{
+	/*float:right;*/
+	width:300px;
+	height:300px;
+	
+}
+
+
+.cliente_box{
+	overflow: hidden;
+	height:240px;
+	width:100%;
+}
+.infoCliente{
+	background: rgba(255,255,255,0.5);
+	height: 260px;
+	width: 50%;
+	float: left;
+	
+}
+
+.infoCliente h1{
+	padding-top: 2%;
+	margin-left: 2%;
+	font-size: 250%;
+}
+
+.infoCliente p{
+	padding-top: 2%;
+	margin-left: 4%;
+	font-size: 150%;
+
+}
+
+.opcoesCliente{
+	background: rgba(255,255,255,0.5);
+	height: 260px;
+	width: 50%;
+	float: right;
+	text-align: right;
+	font-family: 'Calibri';
+	font-Size: 20px;
+}
+
+.opcoesCliente p{
+	margin-top:2%;
+	margin-right: 5%;
+}
+
+.infoClienteTabela{
+	background: rgba(255,255,255,0.5);
+	overflow:auto;
+	width: 100%;
+	height:auto;
+	min-height: 200px;
+}
+
+.infoClienteTabela table{
+	border-collapse: collapse;
+	width: 98%;
+	margin-top: 1%;
+	margin-left: 1%;
+	font-size: 14px;
+	line-height: 24px;
+	text-align: center;
+	margin-bottom: 1%;
+	
+}
+.infoClienteTabela table, .infoClienteTabela th, .infoClienteTabela td{
+	border: 2px solid white;
+}	
+.infoClienteTabela tr:hover {
+	background-color: rgba(255,255,255,0.7)
+}	
+.infoClienteTabela th {
+    background-color: #5B9BD5;
+    color: white;
+}
+
+.infoClienteTabela p{
+	font-family: 'Calibri';
+	font-size: 16px;
+	font-weight: bold;
+	margin: 10px 10px 0px 10px;
+}
+
+.gestaoInfoCliente{
+	background: rgba(255,255,255,0.5);
+	width: 100%;
+}
+
+.gestaoInfoCliente h1{
+	padding-top: 50px;
+	margin-left: 50px;
+	font-size: 300%;
+}
+
+.gestaoInfoCliente h2{
+	padding-top: 2%;
+	margin-left: 8%;
+	font-size: 150%;
+}
+
+.gestaoInfoForm{
+	width:50%;
+	display: inline-block;
+	padding-top: 20px;
+	padding-bottom: 50px;
+}
+
+.gestaoInfoForm form{
+	width: 600px;
+}
+.gestaoInfoForm label{
+	font-Size: 20px;
+	margin-left: 10%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.gestaoInfoForm input{
+	float: right;
+	display: inline-block;
+	margin-right: 10%;
+	width: 350px;
+}
+
+.gestaoInfoForm input[type="submit"]{
+	width: 100px;
+}
+
+.gestaoInfoForm input[type="button"]{
+	width: 100px;
+}
+
+.formAlteracao{
+
+	/*height:100%;*/
+}
+
+.formAlteracao p{
+	margin-top:3%;
+	font-size: 20px;
+}
+
+.formAlteracao form{
+	margin-left: 5%;
+}
+.formAlteracao input, .img_form_produto input{
+	margin-top:1%;
+	margin-left:1%;
+}
+
+.formAlteracao{
+	width:50%;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+.formAlteracao_img{
+	width:302px;
+	display: inline-block;
+	vertical-align:top;
+	height: 302px;
+	border: 1px solid black;
+}
+.img_form_produto{
+	display: inline-block;
+	width: 40%;
+	vertical-align:top;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	
+}
+.img_form_produto img{
+	width:300px;
+	height:300px;
+	margin-bottom: 40px;
+	margin-left:20px;
+}	
+/**
+ * Footer Styles
+ */
+ 
+ hr.style-one {
+    border: 0;
+    height: 1px;
+    background: #000;
+	background: rgba(255,255,255,0.7);
+}
+
+.footer {
+  max-width: 1250px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+}
+
+.novaEncomendabox{
+	min-height: 460px;
+}
+
+.novaEncomendabox h1{
+	margin: 0 2% 2% 2%;
+}
+.novaEncomendabox table{
+	border-collapse: collapse;
+	width: 90%;
+	min-width: 900px;
+	margin-bottom: 1%;
+	margin-left: 5%;
+	margin-right: 5%;
+	font-size: 14px;
+	line-height: 24px;
+	text-align: center;
+	padding-bottom: 20px;
+		
+}
+.novaEncomendabox table,.novaEncomendabox th,.novaEncomendabox td{
+	border: 2px solid white;
+}	
+.novaEncomendabox tr:hover {
+	background-color: rgba(255,255,255,0.7)
+}	
+.novaEncomendabox th {
+    background-color: #5B9BD5;
+    color: white;
+}
+
+.botoesNovaEncomenda{
+	width:150px; 
+	padding: 5px; 
+	margin-left: 6%;
+	display: inline-block;
+}
+
+.botoesNovaEncomenda2{
+	width: 200px;
+    font-size: 15px;
+    display: table-cell;
+	padding: 5px;
+}
+
+
+.botoes{
+	display: block;
+	text-align: right;
+	margin-right: 5%;
+	margin-top: 5%;
+}
+.changeProduct{
+	height: 600px;
+	background: rgba(255,255,255,0.5);
+	
+}
+.changeProduct h1{
+	padding: 10px;
+	margin-left: 5%;
+}
+.changeProduct input {
+	width: 60%;
+	text-align: center;
+	clear: both;
+	margin: 15px;
+}
+
+.changeProduct input[type="number"]{
+	width: 20%;
+}
+.changeProduct input[type="submit"]{
+	width: 20%;
+	line-height: 20px;
+	float: right;
+	margin-right: 10%;
+}
+
+.changeProduct p{
+	font-family: 'Calibri';
+	font-size: 16px;
+	font-weight: bold;
+	margin: 10px 10px 0px 10px;
+	
+}
+
+
+.gestaoInformacaoCliente{
+	overflow: hidden;
+	height:480px;
+	width:100%;
+}
+
+.error {
+  background-color: #FFAAAA;
+  padding: 10px;
+  color: #333;
+  font-weight: bold;
+}
+
+.success {
+  background-color: #AAFFAA;
+  padding: 10px;
+  color: #333;
+  font-weight: bold;
+}
+
+.warning {
+  background-color: #ffc266;
+  padding: 10px;
+  color: #333;
+  font-weight: bold;
+}
+
+a.close {
+  float: right;
+  text-decoration: none;
+  color: #666;
+}
+
+a.link{
+	text-decoration: none;
+}
+a:link    { text-decoration: none;	color: #000}
+a:active  { text-decoration: none; color: #000}
+a:visited { text-decoration: none; color: #000}
+
+#pagination {
+  text-align: center;
+}
+.search{
+	width: 50%;
+	float: left;
+}
+
+.search2{
+	width: 40%;
+	float: right;
+}
+.search input[type="submit"]{
+	width: 200px;
+	font-size: 15px;
+	display: table-cell;
+}
+
+.search label{
+	display: table-cell;
+	padding: 20px;
+}
+
+.search form{
+	display: table;
+}
+.search p{
+	display: table-row;
+}
+
+.botaoAlterarFoto{
+	width: 100%;
+	font-Size: 15px;
+	padding: 5px;
+}
+#botaoFoto{
+	width: 40%;
+	margin-left:10px;
+}
+
+.infoProduto_img{
+	display: inline-block;
+	width:40%;
+	margin-left: 10px;
+	margin-top:  50px;
+}
+
+.Produto_info{
+	display: inline-block;
+	width:50%;
+	margin-left: 4%;
+	vertical-align:top;
+	margin-top:50px;
+	
+}
+
+.produto_promo_descricao{
+	width:100%;
+}
+
+.produtos_notFound{
+	color: #4F4F4F;
+	font-Size: 25px;
+	text-align: center;
+	margin-top: 200px;
+	margin-bottom: 190px;
+}
+
+.botoes_nova_encomenda{
+	margin-left:5%; 
+	margin-top: 30px;
+}
+.form_nova_encomenda{
+	display:inline-block;
+}
+
+.infoClientebox{
+	margin-top:50px;
+	padding-left:35px;
+	width: 50%;
+	display:inline-block;
+}
+
+.clienteImgBox{
+	width:49%;
+	display:inline-block;
+	vertical-align:top;
+}
+.clienteImgBox img{
+	width: 300px;
+	height: 300px;
+	margin-top: 40px;
+	margin-left: 100px;
+}
+
+.clienteInfo{
+	width:100%;
+	background: rgba(255,255,255,0.5);
+}
+
+.clienteImg{
+	width:49%;
+	display: inline-block;
+	vertical-align:top;
+	
+}
+.clienteImg img{
+	width:  200px;
+	height: 200px;
+	margin-left: 160px;
+	
+}
+.info_not_found p{
+	font-size: 2em;
+	color: #595959;
+	text-align: center;
+	margin-top: 7em;
+}

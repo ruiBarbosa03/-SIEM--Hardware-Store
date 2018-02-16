@@ -1,0 +1,68 @@
+body{
+	background-image: url("../images/porto_background.jpg");
+	height:600px;
+	background-attachment:fixed;
+	background-size:cover;
+	background-position:center;
+	min-width: 1200px;
+	max-width: 1250px;
+	position: relative;
+	margin: 0 auto;
+}
+
+.Presentation{
+	width: 50%;
+	float: left; 
+	margin: 40px; 
+	text-align: left;
+	font-family: Calibri;
+	position: absolute;
+	min-width: 400px;
+}
+
+.Info_Autores{
+	padding-left: 500px;
+	width: 40%;
+	float: right;
+	position: relative;
+	min-width: 400px;
+}
+
+.Img_RB{
+	float: left;
+	margin: 10%;
+}
+
+.Img_FF{
+	float: right;
+	margin: 10%;
+}
+
+.downloads{
+	float: right;
+	margin-right: 10%;
+}
+a{
+	text-decoration: none; 
+	color: inherit;
+}
+
+h1{
+	font-size: 250%;
+}
+h2 {
+	font-family: Calibri;
+	font-size: 50px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	line-height: 50px;
+	text-align: center;
+}
+
+p{
+	font-family: Calibri;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 20px;
+}
